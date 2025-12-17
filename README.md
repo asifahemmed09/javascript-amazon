@@ -48,45 +48,6 @@ A fully functional **Amazon-style e-commerce frontend application** built using 
 
 ---
 
-## 📂 Project Structure
-
-amazon-clone/
-│
-├── index.html                 # Product listing page
-├── checkout.html              # Checkout page
-├── orders.html                # Orders history page
-├── tracking.html              # Order tracking page
-│
-├── data/                      # Application state & static data
-│   ├── cart.js                # Cart logic & localStorage handling
-│   ├── products.js            # Product data
-│   └── deliveryOptions.js     # Delivery options & pricing
-│
-├── scripts/                   # Page-level JavaScript
-│   ├── amazon.js              # Amazon (home) page logic
-│   │
-│   ├── checkout/              # Checkout-related logic
-│   │   ├── checkout.js        # Checkout initialization & header sync
-│   │   ├── orderSummary.js    # Cart items rendering
-│   │   └── paymentSummary.js  # Order summary & empty state handling
-│   │
-│   └── orders/                # Orders & tracking logic
-│       ├── orders.js          # Orders page rendering
-│       └── tracking.js        # Order tracking functionality
-│
-├── styles/                    # CSS styles
-│   ├── amazon.css
-│   ├── checkout.css
-│   ├── orders.css
-│   └── tracking.css
-│
-├── assets/                    # Images & icons (optional)
-│   └── images/
-│
-└── README.md                  # Project documentation
-
-
----
 
 ## 🧪 How It Works
 
