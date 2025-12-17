@@ -2,8 +2,7 @@
 
 A fully functional **Amazon-style e-commerce frontend application** built using **HTML, CSS, and Vanilla JavaScript**, focusing on real-world shopping flows, cart persistence, and multi-page state management using `localStorage`.
 
-🔗 **Live Demo:** https://your-live-link-here.netlify.app  
-📂 **Source Code:** https://github.com/your-username/amazon-clone
+🔗 **Live Demo:** https://simple-amazon-clone-js.netlify.app/
 
 ---
 
@@ -53,7 +52,7 @@ A fully functional **Amazon-style e-commerce frontend application** built using 
 
 amazon-clone/
 │
-├── amazon.html                # Product listing page
+├── index.html                 # Product listing page
 ├── checkout.html              # Checkout page
 ├── orders.html                # Orders history page
 ├── tracking.html              # Order tracking page
@@ -108,30 +107,6 @@ amazon-clone/
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots here (optional but recommended)_
-
----
-
-## 📌 Future Improvements
-
-- User authentication
-- Backend integration (Node.js / Firebase)
-- Payment gateway simulation
-- Convert to React
-- Add unit tests
-
----
-
-## 👨‍💻 Author
-
-**Your Name**  
-Frontend Developer  
-LinkedIn: https://linkedin.com/in/your-profile  
-GitHub: https://github.com/your-username
-
----
 
 ## ⭐ If you like this project
 
