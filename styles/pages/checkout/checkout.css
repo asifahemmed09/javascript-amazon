@@ -175,3 +175,19 @@
   margin-top: 11px;
   margin-bottom: 15px;
 }
+
+.payment-summary-empty {
+  padding: 24px;
+  text-align: center;
+  color: #565959;
+}
+
+.empty-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.empty-subtitle {
+  font-size: 14px;
+}

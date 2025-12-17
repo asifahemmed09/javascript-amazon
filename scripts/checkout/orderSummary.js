@@ -8,8 +8,17 @@ import { renderPaymentSummary } from './paymentSummary.js';
 const today = dayjs();
 const deliveryDate = today.add(7, 'days');
 
-
 export function renderOrderSummary() {
+  if (cart.length === 0) {
+    document.querySelector('.order-summary').innerHTML = `
+      <p>Your cart is empty.</p>
+      <a href="amazon.html" class="link-primary">
+        Continue shopping
+      </a>
+    `;
+    return;
+  }
+
   let cartSummaryHTML = '';
 
   cart.forEach((item, index) => {
@@ -131,5 +140,3 @@ export function renderOrderSummary() {
     });
   });
 }
-
-
